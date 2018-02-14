@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/welcome_background"
+    android:weightSum="1"
+    tools:context="deal.mart.WelcomeActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.65"
+        android:padding="15dp"
+        android:gravity="bottom|center"
+        android:text="                Hello there..!\n                  Welcome "
+        android:textColor="#2D7B74"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+
+    <TextView
+
+        android:id="@+id/welcome_user"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.35"
+        android:gravity="top|right"
+        android:padding="15dp"
+        android:text="VIKAS KUMAR YADAV"
+        android:textColor="#2D7B74"
+        android:textSize="22dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>

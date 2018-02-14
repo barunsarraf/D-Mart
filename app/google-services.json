@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "138005172042",
+    "firebase_url": "https://mart-24cbf.firebaseio.com",
+    "project_id": "mart-24cbf",
+    "storage_bucket": "mart-24cbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138005172042:android:2470d5f1c567ff08",
+        "android_client_info": {
+          "package_name": "deal.mart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138005172042-2lps6srrftqib2kjtalslhn6eb6m1q2i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "deal.mart",
+            "certificate_hash": "9fc517a47c0fe4ef3d75591586d147d4b126bea4"
+          }
+        },
+        {
+          "client_id": "138005172042-8jkms9e81eot24ul7omtrrtarsne8s7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFai055GR4Au9ASov44hFeAA-uIZmVjUA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138005172042-8jkms9e81eot24ul7omtrrtarsne8s7b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

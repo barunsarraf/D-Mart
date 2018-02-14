@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/nav_setting"
+                android:title="Manage Account" />
+            <item
+                android:id="@+id/nav_sign_in"
+                android:icon="@drawable/nav_sign_in"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+    <item android:title="Activity">
+        <menu>
+            <item
+                android:id="@+id/nav_sale"
+                android:icon="@drawable/nav_sale"
+                android:title="Sold Products" />
+            <item
+                android:id="@+id/nav_upload"
+                android:icon="@drawable/nav_upload"
+                android:title="Upload Product" />
+        </menu>
+    </item>
+    <item android:title="other">
+        <menu>
+            <item
+                android:id="@+id/nav_notification"
+                android:icon="@drawable/nav_notification"
+                android:title="Notification" />
+        </menu>
+    </item>
+
+</menu>

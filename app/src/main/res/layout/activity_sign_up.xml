@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/signin_background"
+    android:paddingTop="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/imageView4"
+        android:layout_width="151dp"
+        android:layout_height="175dp"
+        app:srcCompat="@drawable/bearedd" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:background="@drawable/edit_background"
+        android:id="@+id/_user"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:paddingLeft="5dp"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:hint="User Name" />
+    <EditText
+        android:layout_gravity="center"
+        android:background="@drawable/edit_background"
+        android:id="@+id/user_name"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:paddingLeft="5dp"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:hint="Name" />
+    <EditText
+        android:layout_gravity="center"
+        android:background="@drawable/edit_background"
+        android:id="@+id/user_address"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textColorHint="#000000"
+        android:textColor="#000000"
+        android:paddingLeft="5dp"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:hint="Address" />
+    <EditText
+        android:layout_gravity="center"
+        android:background="@drawable/edit_background"
+        android:id="@+id/user_password"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:paddingLeft="5dp"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        android:hint="Password" />
+    <EditText
+        android:layout_gravity="center"
+        android:background="@drawable/edit_background"
+        android:id="@+id/user_mail"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textColor="#000000"
+        android:paddingLeft="5dp"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        android:hint="Mail Id" />
+    <EditText
+        android:layout_gravity="center"
+        android:background="@drawable/edit_background"
+        android:id="@+id/user_mobile"
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:textColor="#000000"
+        android:paddingLeft="5dp"
+        android:textAlignment="center"
+        android:inputType="number"
+        android:textColorHint="#000000"
+        android:hint="Phone" />
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/user_signup"
+        android:paddingTop="10dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/okbutton" />
+</LinearLayout>

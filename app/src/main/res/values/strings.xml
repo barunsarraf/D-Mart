@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">DealMart</string>
+    <string-array name="product">
+        <item>book</item>
+        <item>cycle</item>
+        <item>laptop</item>
+        <item>smartphone</item>
+        <item>watch</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="status">
+        <item>Available Books</item>
+        <item>Available Cycles</item>
+        <item>Available Laptops</item>
+        <item>Available Watches</item>
+        <item>Available Smart Phones</item>
+        <item>Other Products</item>
+    </string-array>
+
+    <string name="slide_1_title">Available Products</string>
+    <string name="slide_1_desc">Check Our Attractive deals and products in Deal Mart.</string>
+    <string name="slide_2_title">One Click</string>
+    <string name="slide_2_desc">Just One Click and you are on to your product.</string>
+    <string name="slide_3_title">Tap to Deal</string>
+    <string name="slide_3_desc">We will connect you with your friend and make a deal easy.</string>
+    <string name="slide_33_title">Save Time</string>
+    <string name="slide_33_desc">We also save your time inorder to make deal easy and secure.</string>
+    <string name="slide_4_title">Upload your Products</string>
+    <string name="slide_4_desc">You can share your old boring items on our app and well connect you with the people interested in it. </string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_user">UserActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_notification">Notification</string>
+
+</resources>

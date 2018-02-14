@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/background_main"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/upload_preview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/shadow"
+        android:layout_weight="0.5"
+        android:layout_gravity="center_horizontal"
+        app:srcCompat="@drawable/addimage"
+        />
+    <Spinner
+        android:layout_gravity="center"
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        style="@style/Base.ThemeOverlay.AppCompat.Dark"
+        android:backgroundTint="#000000"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.5"
+        android:layout_height="0dp">
+        <EditText
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/upload_product"
+            android:layout_width="280dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/edit_background"
+            android:ems="10"
+            android:gravity="center_horizontal"
+            android:hint="Item Name"
+            android:inputType="textPersonName"
+            android:paddingTop="8dp"
+            android:textColorHint="#2D2D2D"
+            android:textSize="18dp"
+            />
+
+        <EditText
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/upload_price"
+            android:layout_width="240dp"
+            android:layout_height="35dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Price"
+            android:gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:textSize="18dp"
+            android:textColorHint="#2D2D2D"
+            android:background="@drawable/edit_background"
+            android:layout_marginTop="8dp"
+
+            android:layout_marginRight="8dp"
+
+            android:layout_marginLeft="8dp"
+            />
+
+        <EditText
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/upload_description"
+            android:gravity="center_horizontal"
+            android:paddingTop="8dp"
+            android:textSize="18dp"
+            android:layout_width="280dp"
+            android:layout_height="35dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="description"
+            android:textColorHint="#2D2D2D"
+            android:background="@drawable/edit_background"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginLeft="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/gallery_button"
+                style="?android:borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@null"
+                app:srcCompat="@drawable/upload_gallery" />
+
+
+            <ImageView
+                android:id="@+id/upload_button"
+                style="?android:borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@null"
+                app:srcCompat="@drawable/upload_cart" />
+            <ImageView
+                android:id="@+id/camera_button"
+                style="?android:borderlessButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.33"
+                android:padding="10dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@null"
+                app:srcCompat="@drawable/upload_camera" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

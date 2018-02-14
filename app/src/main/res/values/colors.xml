@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CB202D</color>
+    <color name="colorPrimaryDark">#B61D28</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="colorSlide_1">#009688</color>
+    <color name="colorSlide_2">#FFD600</color>
+    <color name="colorSlide_3">#2b2b2a</color>
+    <color name="colorSlide_4">#F44336</color>
+    <color name="active_dots">#fffafa</color>
+    <color name="inactive_dots">#626364</color>
+    <color name="primaryGreen">#8BC34A</color>
+    <color name="primaryDarkGreen">#689F38</color>
+    <color name="primaryBlue">#0088FF</color>
+    <color name="primaryDarkBlue">#3F51B5</color>
+    <color name="primaryOrange">#FF9800</color>
+    <color name="primaryDarkOrange">#FF6D00</color>
+    <color name="primaryRed">#FF5722</color>
+    <color name="primaryDarkRed">#E64A19</color>
+    <color name="primaryPurple">#673AB7</color>
+    <color name="primaryDarkPurple">#512DA8</color>
+
+
+</resources>

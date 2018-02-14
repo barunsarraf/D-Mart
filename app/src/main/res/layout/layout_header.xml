@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="160dp"
+    android:background="@drawable/header_background"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+    <android.support.v7.widget.CardView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:elevation="12dp"
+        android:id="@+id/view2"
+        app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="#00EF7700"
+        android:layout_centerHorizontal="true"
+        android:innerRadius="0dp"
+        android:shape="ring"
+        android:thicknessRatio="1.9">
+        <ImageView
+            android:id="@+id/drawer_profile_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/bearedd" />
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        android:id="@+id/drawer_profile_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vikas Kumar Yadav"
+        android:textSize="16dp"
+        android:textColor="@android:color/black"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/drawer_profile_mail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:textSize="12dp"
+        android:text="abc@gmail.com" />
+
+</LinearLayout>
