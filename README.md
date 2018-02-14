@@ -9,3 +9,17 @@ A user can also send a notificaiton in order to buy the desired product.
 <img src="screenshots/2.png" alt="Products" height="350px" />
 <img src="screenshots/3.png" alt="Products" height="350px" />
 </p>
+
+<h2>Installation</h2>
+<p>Clone the project from github. Extract the file and import it in Android Studio.Compile it and Run</p>
+
+<progress value="99" max="100">
+</progress>
+
+<h2>Contributers</h2>
+
+<p>Vikash Kumar Yadav</p>
+<p>E-Mail=yadavikas25071997@gmail.com</p>
+
+<p>Barun Sarraf</p>
+<p>E-Mail=barunsaraf1@gmail.com</p>
