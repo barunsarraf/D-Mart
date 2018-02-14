@@ -18,7 +18,7 @@ A user can also send a notificaiton in order to buy the desired product.
 
 <h2>Contributers</h2>
 
-<p><b>Vikash Kumar Yadav</b><i>(yadavikas25071997@gmail.com)</i></p>
-<p><b>Barun Sarraf</b><i>(barunsarraf1@gmail.com)</i></p>
+<p><b>Vikash Kumar Yadav</b><i> (yadavikas25071997@gmail.com)</i></p>
+<p><b>Barun Sarraf</b><i> (barunsarraf1@gmail.com)</i></p>
 
 
